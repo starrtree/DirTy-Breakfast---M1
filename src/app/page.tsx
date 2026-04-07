@@ -15,7 +15,7 @@ import { Badge } from '@/components/ui/badge';
    IMAGE URLs — imgur direct links (unoptimized)
    ═══════════════════════════════════════════════════════════════ */
 const IMAGES = {
-  logo: 'https://i.imgur.com/undefined.png',
+  logo: 'https://i.imgur.com/ocYoXO2.png',
   biscuit: 'https://i.imgur.com/lYs59d8.png',
   dirtyWaffle: 'https://i.imgur.com/7HwDSWu.png',
   fruityPebblePancakes: 'https://i.imgur.com/VAXcjcP.png',
