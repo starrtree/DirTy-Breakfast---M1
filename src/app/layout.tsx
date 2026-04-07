@@ -18,8 +18,8 @@ export const metadata: Metadata = {
   description: "Your go-to spot for breakfast, brunch & late night eats in Cincinnati, Ohio. Southern cuisine made fresh daily. Est. 2023.",
   keywords: ["Dirty Breakfast", "breakfast", "brunch", "late night", "Cincinnati", "southern cuisine", "waffles", "pancakes", "grits"],
   icons: {
-    icon: "https://i.imgur.com/undefined.png",
-    apple: "https://i.imgur.com/undefined.png",
+    icon: "https://i.imgur.com/ocYoXO2.png",
+    apple: "https://i.imgur.com/ocYoXO2.png",
   },
   openGraph: {
     title: "Dirty Breakfast | Breakfast, Brunch & Late Night Eats",
