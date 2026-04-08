@@ -1,5 +1,8 @@
 # DirTy-Breakfast---M1
 
+> ⚠️ This page is the **repository README**, not the running website UI.
+> To view the actual restaurant site, run the app and open `http://localhost:3000` (or your deployment preview URL).
+
 Dirty Breakfast restaurant site (Next.js + Tailwind).
 
 ## Quick start
