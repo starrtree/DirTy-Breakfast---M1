@@ -6,8 +6,7 @@ async function loadMenu() {
     grid.innerHTML = items.map((item) => `
       <article class="menu-item">
         <h4>${item.name}</h4>
-        <p>${item.description}</p>
-        <div class="price">$${item.price.toFixed(2)}</div>
+        <a class="menu-link" href="${item.url}" target="_blank" rel="noreferrer">Order on Toast</a>
       </article>
     `).join('');
   } catch {
