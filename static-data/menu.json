@@ -1,0 +1,8 @@
+[
+  { "name": "Dirty Waffle", "description": "Belgian waffle, bourbon syrup, crispy chicken", "price": 16.0 },
+  { "name": "Dirty Grits", "description": "Cheddar grits, shrimp, smoked bacon", "price": 14.0 },
+  { "name": "Lamb & Eggs", "description": "Seared lamb chops, eggs, toast", "price": 24.0 },
+  { "name": "Fruity Pebble Pancakes", "description": "Stacked pancakes, vanilla glaze", "price": 13.0 },
+  { "name": "Biscuit Sandwich", "description": "Egg, cheese, bacon, hot honey", "price": 11.0 },
+  { "name": "Texas Toast Combo", "description": "French toast, maple butter, fruit", "price": 12.0 }
+]
