@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dirty Breakfast — Cincinnati, OH</title>
+    <meta name="description" content="Dirty Breakfast restaurant MVP - breakfast, brunch, and late-night eats." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>Dirty Breakfast</h1>
+      <nav>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <p class="eyebrow">CINCINNATI • EST 2023</p>
+          <h2>Breakfast, Brunch & Late Night Eats</h2>
+          <p>Fresh waffles, loaded grits, crispy shrimp, and Southern comfort plates.</p>
+          <a class="btn" href="https://order.toasttab.com/online/dirty-breakfast" target="_blank" rel="noreferrer">Order Online</a>
+        </div>
+      </section>
+
+      <section id="menu" class="card">
+        <h3>Featured Menu</h3>
+        <p>Loaded from <code>static-data/menu.json</code>.</p>
+        <div id="menu-grid" class="grid"></div>
+      </section>
+
+      <section id="about" class="card">
+        <h3>Hours & Location</h3>
+        <ul>
+          <li>Thu: 5 PM – 11 PM</li>
+          <li>Fri: 5 PM – 2 AM</li>
+          <li>Sat: 11 AM – 2 AM</li>
+          <li>Sun: 11 AM – 8 PM</li>
+        </ul>
+        <p>Address: Cincinnati, Ohio</p>
+      </section>
+
+      <section id="contact" class="card">
+        <h3>Join VIP List</h3>
+        <form id="vip-form">
+          <label>
+            Name
+            <input name="name" required />
+          </label>
+          <label>
+            Email
+            <input name="email" type="email" required />
+          </label>
+          <button type="submit" class="btn">Join</button>
+          <p id="form-status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <small>© Dirty Breakfast MVP</small>
+    </footer>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
