@@ -1,17 +1,23 @@
 # DirTy-Breakfast---M1
 
-> ⚠️ This page is the **repository README**, not the running website UI.
-> To view the actual restaurant site, run the app and open `http://localhost:3000` (or your deployment preview URL).
+This repository now includes a static MVP frontend **plus** a lightweight Node backend (no external dependencies) so you can run everything directly in-repo.
 
-Dirty Breakfast restaurant site (Next.js + Tailwind).
-
-## Quick start
+## Run locally (full-stack in repo)
 
 ```bash
-./scripts/setup.sh
-npm run dev
+node server.mjs
 ```
 
-Open: http://localhost:3000
+Then open: http://localhost:3000
 
-For full import/setup troubleshooting, see `docs/LOCAL_SETUP.md`.
+## What this includes
+
+- `index.html`, `styles.css`, `app.js`: static restaurant website MVP
+- `static-data/menu.json`: menu data loaded by the frontend
+- `server.mjs`: local backend server + `/api/subscribe` endpoint
+- `api/submissions.json`: persisted VIP form submissions
+
+## GitHub Pages note
+
+GitHub Pages can host the static files (`index.html`), but Pages does **not** run Node APIs.
+For API-backed behavior, use `node server.mjs` locally or deploy `server.mjs` to a Node host.
